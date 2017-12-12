@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Diagram>
+  <ID>JAVA</ID>
+  <OriginalElement />
+  <nodes>
+    <node x="75.345" y="345.0">MoneyCollector2.MoneyBag</node>
+    <node x="10.4375" y="602.0">MoneyCollector2.CatchEngine</node>
+    <node x="47.5625" y="836.0">MoneyCollector2.CatchComponent</node>
+    <node x="114.1875" y="1194.0">MoneyCollector2.MoneyBagMenu</node>
+    <node x="0.0" y="0.0">MoneyCollector2.Money</node>
+    <node x="114.1875" y="1048.0">MoneyCollector2.PlayMoneyBag</node>
+  </nodes>
+  <notes />
+  <edges>
+    <edge source="MoneyCollector2.CatchComponent" target="MoneyCollector2.CatchEngine">
+      <point x="-54.25" y="-81.0" />
+      <point x="101.8125" y="811.0" />
+      <point x="98.9375" y="811.0" />
+      <point x="0.0" y="92.0" />
+    </edge>
+    <edge source="MoneyCollector2.MoneyBag" target="MoneyCollector2.Money">
+      <point x="2.8421709430404007E-14" y="-103.5" />
+      <point x="183.84500000000003" y="325.0" />
+      <point x="137.90000000000003" y="325.0" />
+      <point x="39.400000000000034" y="147.5" />
+    </edge>
+    <edge source="MoneyCollector2.MoneyBagMenu" target="MoneyCollector2.PlayMoneyBag">
+      <point x="0.0" y="-26.0" />
+      <point x="0.0" y="48.0" />
+    </edge>
+    <edge source="MoneyCollector2.PlayMoneyBag" target="MoneyCollector2.MoneyBag">
+      <point x="21.375" y="-48.0" />
+      <point x="221.0625" y="1018.0" />
+      <point x="278.375" y="1018.0" />
+      <point x="278.375" y="577.0" />
+      <point x="265.22" y="577.0" />
+      <point x="81.37500000000003" y="103.5" />
+    </edge>
+    <edge source="MoneyCollector2.PlayMoneyBag" target="MoneyCollector2.CatchComponent">
+      <point x="-21.375" y="-48.0" />
+      <point x="178.3125" y="1028.0" />
+      <point x="156.0625" y="1028.0" />
+      <point x="0.0" y="81.0" />
+    </edge>
+    <edge source="MoneyCollector2.CatchEngine" target="MoneyCollector2.MoneyBag">
+      <point x="44.25" y="-92.0" />
+      <point x="143.1875" y="577.0" />
+      <point x="156.72" y="577.0" />
+      <point x="-27.125" y="103.5" />
+    </edge>
+    <edge source="MoneyCollector2.PlayMoneyBag" target="MoneyCollector2.CatchEngine">
+      <point x="-64.125" y="-48.0" />
+      <point x="135.5625" y="1028.0" />
+      <point x="37.0625" y="1028.0" />
+      <point x="37.0625" y="811.0" />
+      <point x="39.9375" y="811.0" />
+      <point x="-59.0" y="92.0" />
+    </edge>
+    <edge source="MoneyCollector2.CatchEngine" target="MoneyCollector2.Money">
+      <point x="-44.25" y="-92.0" />
+      <point x="53.845" y="325.0" />
+      <point x="59.10000000000001" y="325.0" />
+      <point x="-39.39999999999999" y="147.5" />
+    </edge>
+    <edge source="MoneyCollector2.PlayMoneyBag" target="MoneyCollector2.Money">
+      <point x="64.125" y="-48.0" />
+      <point x="263.8125" y="1028.0" />
+      <point x="302.845" y="1028.0" />
+      <point x="302.845" y="315.0" />
+      <point x="177.30000000000004" y="315.0" />
+      <point x="78.80000000000004" y="147.5" />
+    </edge>
+  </edges>
+  <settings layout="Hierarchic Group" zoom="0.6000000000000001" x="-41.14285714285717" y="549.4285714285711" />
+  <SelectedNodes>
+    <node>MoneyCollector2.MoneyBag</node>
+  </SelectedNodes>
+  <Categories>
+    <Category>Methods</Category>
+    <Category>Properties</Category>
+  </Categories>
+  <SCOPE>All</SCOPE>
+  <VISIBILITY>private</VISIBILITY>
+</Diagram>
+

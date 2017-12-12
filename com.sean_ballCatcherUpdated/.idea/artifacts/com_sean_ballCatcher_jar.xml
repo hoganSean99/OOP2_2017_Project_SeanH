@@ -1,0 +1,8 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="com.sean_ballCatcher:jar">
+    <output-path>$PROJECT_DIR$/out/artifacts/com_sean_ballCatcher_jar</output-path>
+    <root id="archive" name="com.sean_ballCatcher.jar">
+      <element id="module-output" name="com.sean_ballCatcher" />
+    </root>
+  </artifact>
+</component>
